@@ -3,6 +3,7 @@ package ru.skypro;
 public class Main {
 
     public static void main(String[] args) {
+
         // Задача1.
         {
             int i = 0;
@@ -15,11 +16,13 @@ public class Main {
                 System.out.print(n + " ");
             }
         }
+
         //Задача2
         System.out.println();
-        for (int f = 2; f < 31 ; f = f + 7) {
+        for (int f = 2; f < 31; f = f + 7) {
             System.out.println("Сегодня пятница " + f + "-e число. Необходимо подготовить отчет");
         }
+
         //Задача3
         int y = 0;
         int yearCometStart = 2022 - 200;
