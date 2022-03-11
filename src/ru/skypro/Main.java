@@ -27,8 +27,10 @@ public class Main {
         int y = 0;
         int yearCometStart = 2022 - 200;
         int yearCometStop = 2022 + 100;
-        for (y = yearCometStart; y <= yearCometStop; y = y + 79) {
-            System.out.println(y + " год.");
+        for (y = 0; y <= yearCometStop; y = y + 79) {
+            if (y >= yearCometStart) {
+                System.out.println(y + " год.");
+            }
         }
     }
 }
