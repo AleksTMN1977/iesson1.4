@@ -32,5 +32,28 @@ public class Main {
                 System.out.println(y + " год.");
             }
         }
+
+        //Задача4
+        for (int a = 1; a <= 30; a++) {
+            if (a % 3 != 0 && a % 5 != 0) {
+                System.out.println(a + ":");
+            } else if (a % 3 == 0 && a % 5 == 0) {
+                System.out.println(a + ": ping pong");
+            } else if (a % 3 == 0) {
+                System.out.println(a + ": ping");
+            } else if (a % 5 == 0) {
+                System.out.println(a + ": pong");
+            }
+        }
+
+        //Задача 5
+        int any = 1;
+        int x = 0;
+        int z = 1;
+        for (; any <= 5; x = x + z, z = x + z, any++) {
+            System.out.print(" " + x + " " + z);
+        }
     }
 }
+
+
